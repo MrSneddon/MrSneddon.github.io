@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>About Me</title>
+    <title>My Blog</title>
      <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
+<!-- this is the body of the webpage, containing all content to be displayed on the webpage,
+this content has been seperated into three sections, similar to the index (home) page. It 
+contains a header, which provides navigation. A content section that shows the "about me". 
+And a footer, this footer links to my social medias and gives a brief my story.-->
 <body>
     <div id="header">
         <div class="container">
             <a href="index.html">About me!</a>
             <ul>
                 <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="mailto:DDcsneddon464@glow.sch.uk">Contact</a></li>
             </ul>
         </div>
     </div>
     
+    <!-- This section makes the main body of content. A brief about me section -->
     <div id="content">
+        <!-- for easier formatting containers are in use -->
         <div class="container">
             <div class="about">
                 <div class="about-author">
-                    <img src="Dance1.gif">
-                    <img src="Dance2.gif">
+                    <img src="Dance1.gif" alt="A dancing gif">
+                    <img src="Dance2.gif" alt="An AI gif matching my motion to pictures from history">
                 </div>
                 <h1 class="about-title">About Me</h1>
                 <div class="about-content">
@@ -32,11 +38,15 @@
         </div>
     </div>
     
+    <!--The following section deals with the footer of the about page-->
     <div id="footer">
+        <!-- Everything is grouped within a container to allow easier formatting-->
         <div class="container">
+            <!-- Links and the about me will be displayed in 2 columns to allow a more pleasing display to the end user-->
             <div class="column">
                 <h4>My Links</h4>
                 <p>
+                    <!--There will be multiple links to social medias-->
                     <a href="https://twitter.com/sneddon_mr">My Twitter</a>
                     <br>
                     <a href="https://facebook.com">Facebook</a>
@@ -44,6 +54,7 @@
             </div>
             
             <div class="column">
+                <!-- a short blurb about me, somewhat irrelevant on an about me page, but for consistancy it may be best to add this-->
                 <h4>My Story</h4>
                 <p>Hi there! I am an aspiring web developer and computing teacher.</p>
             </div>
